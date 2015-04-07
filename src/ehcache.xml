@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache updateCheck="false" monitoring="autodetect" dynamicConfig="false">
+
+    <diskStore path="java.io.tmpdir"/>
+
+    <defaultCache
+           maxElementsInMemory="3600"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false" />
+
+    <!-- essay -->
+    <cache name="essay"
+           maxElementsInMemory="25"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false" />
+
+    <cache name="essayPage"
+           maxElementsInMemory="5"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false" />
+
+    <cache name="essayPageForAdmin"
+           maxElementsInMemory="5"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false" />
+           
+    <cache name="essayTypePage"
+           maxElementsInMemory="5"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false" />
+                  
+    <cache name="essayPV"
+           maxElementsInMemory="1"
+           eternal="false"
+           timeToIdleSeconds="7200"
+           timeToLiveSeconds="7200"
+           overflowToDisk="false" />           
+           
+           
+</ehcache>
